@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+
+.container {
+    width: 1340px;
+    height: 900px;
+    background-color: #ededed;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.playlists-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-list {
+    width: 500px;
+    height: 100%;
+    margin: 30px 20px 0 20px;
+    padding: 1.5rem;
+    border-radius: 10px 10px 0 0;
+
+    background-color: #fff;
+}
+
+.title-list {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.title-list h3 {
+    font-size: 25px;
+}
+
+.button-randomplay {
+    width: 200px;
+    height: 35px;
+    margin: 0.5rem 0rem 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    background-color: rgb(51, 51, 51);
+    border-radius: 5px;
+}
+
+.button-randomplay button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+}
+
+.song-list {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.song-list::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+.music-container {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    justify-content: center;
+}
+
+.music-image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.music-image img{
+    width: 100px;
+    height: 100px;
+}
+
+.fast-player {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+
+.music-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: left;
+}
+
+.buttons button {
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    justify-content: left;
+
+}
+
+.button-play {
+    width: 100px;
+    height: 40px;
+    margin: 10px 20px 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+}
+
+.button-info{
+    width: 70px;
+    height: 40px;
+    margin: 10px 0px 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+    background: linear-gradient(48deg, rgb(135, 207, 233) 0%, rgba(148,187,233,1) 100%);
+}
+
+.container-player {
+    height: 20%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: linear-gradient(48deg, rgba(236,250,255,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: 1px -5px 40px -29px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 1px -5px 40px -29px rgba(0,0,0,0.65);
+    -moz-box-shadow: 1px -5px 40px -29px rgba(0,0,0,0.65);
+}
+
+.music-running {
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}  
+
+.image-actual {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.image-actual img {
+    width: 100px;
+}
+
+.music-description {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+}
+
+.music-description h5 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.music-description h6 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.controls {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: rgb(165,208,255);
+    background: linear-gradient(90deg, rgba(165,208,255,1) 0%, rgba(55,133,255,1) 51%, rgba(149,211,247,1) 100%);
+}
+
+.container {
+    width: 1280px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+    background: rgb(241,241,241);
+    background: linear-gradient(45deg, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 49%, rgba(244,244,244,1) 100%);
+
+    box-shadow: 1px 21px 21px -1px rgba(79,79,79,0.09);
+    -webkit-box-shadow: 1px 21px 21px -1px rgba(79,79,79,0.09);
+    -moz-box-shadow: 1px 21px 21px -1px rgba(79,79,79,0.09);
+}
+
+
+.menu nav {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 1280px;
+}
+
+.menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 0 150px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1a22ae;
+    font-weight: 400;
+    margin: 0.6rem 0;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+}
+
+.menu a:hover {
+    color: #fff;
+
+    background: rgb(40,66,208);
+    background: linear-gradient(144deg, rgba(40,66,208,1) 0%, rgba(26,34,174,1) 49%, rgba(34,19,199,1) 100%);
+
+    box-shadow: 1px 21px 21px -1px rgba(79,79,79,0.09);
+    -webkit-box-shadow: 1px 21px 21px -1px rgba(79,79,79,0.09);
+    -moz-box-shadow: 1px 21px 21px -1px rgba(79,79,79,0.09);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;    
+    height: 80px; 
+
+    border-radius: 10px;
+
+    background: rgb(40,66,208);
+    background: linear-gradient(144deg, rgba(40,66,208,1) 0%, rgba(27,37,177,1) 44%, rgba(34,19,199,1) 100%);
+
+}
+
+.header h1 {
+    color: #fff;
+}
+
+.title {
+    height: content;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.title h1 {
+    font-size: 24px;
+}
+
+.form {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;    
+}
+
+.input-form {
+    padding: 1rem;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aliceblue;
+    box-shadow: 1px 21px 21px -1px rgba(79,79,79,0.09);
+}
+
+.input-box {
+    margin: 0.06rem 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    border: none;
+    margin: 0.06rem 0;
+    padding: 0.8rem 1.2rem;
+    border-radius: 25px;
+    color: rgb(185, 185, 185);
+}
+
+.input-box::placeholder{
+    color: #dadada;
+}
+
+.input-box input:hover{
+    background-color: #fbfbfb;
+}
+
+.input-box input:focus-visible {
+    outline: 0px;
+    initial-value: none;
+    text-overflow: '';
+    color: rgb(128, 128, 128);
+}
+
+.input-box label {
+    margin-left: 20px;
+    color: #1a22ae;
+}
+
+.buttom-submit {
+    padding: 0.5rem 1.2rem;
+    text-align: center;
+}
+
+.buttom-submit a{
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+    border: none;
+
+    text-decoration: none;
+    color: #fff;
+
+    font-size: 14px;
+    background: linear-gradient(144deg, rgba(40,66,208,1) 0%, rgba(26,34,174,1) 49%, rgba(34,19,199,1) 100%);
+}
+
+.container-table{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: auto;
+}
+
+
+table {
+    width: 80%;
+    flex-direction: column;
+    
+    margin-bottom: 50px;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px 21px 21px -1px rgba(79,79,79,0.09);
+
+}
+
+table thead {
+    background: linear-gradient(144deg, rgba(40,66,208,1) 0%, rgba(26,34,174,1) 49%, rgba(34,19,199,1) 100%);
+}
+
+th {
+
+    color: #fff;
+}
+
+th, td {
+    text-align: left;
+    width: 25%;
+    white-space: nowrap;
+
+}
+img{
+    width: 200px;   
+    height: 200px;
+    padding: 1rem;
+}
