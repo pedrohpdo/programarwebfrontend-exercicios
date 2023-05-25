@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon_io/favicon.ico" type="image/x-icon">
+    <title>Exercicio 6</title>
+</head>
+<body> 
+    <script src="script.js"></script>
+
+    <div class="container">
+        <form action="">
+            <span>Digite seu RG</span>
+            <label for="rg">
+                <input type="text" id="rg" onblur="checkinput(this)" autocomplete="off">
+            </label>
+                        
+            <span>Digite seu CPF</span>
+            <label for="cpf">
+                <input type="text" id="cpf" onblur="checkinput(this)" autocomplete="off">
+            </label>
+            
+            <button type="submit" onclick="checkdata()">
+                Enviar
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
