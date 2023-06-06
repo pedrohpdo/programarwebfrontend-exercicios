@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     font-family: "Inter";
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -16,85 +17,80 @@ body {
 
     background: rgb(32,209,209);
     background: linear-gradient(48deg, rgba(32,209,209,1) 0%, rgba(21,154,154,1) 30%, rgba(7,99,99,1) 97%);
-
 }
 
 .container {
-    width: 500px;
-    height: 600px;
+    width: 600px;
+    height: 450px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
     background-color: #fff;
     border-radius: 4px;
-}
-
-form {
-    width: 400px;
 
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-h6 {
-    width: 100%;
-    height: 20px;
-    text-align: center;
-
+.form-input, form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
 }
 
-label, input { 
-    height: 45px;
+h1 {
+    width: 100%;
+    text-align: center;
+    color: rgb(12, 121, 100);
+    margin-bottom: 24px;
+}
+
+label, input {
+    height: 40px;
+    border-style: none;
     background-color: #f5f5f5;
+    border-radius: 4px;
+
+    margin-bottom: 18px;
 }
 
 label {
-    width: 100%;
-    border-radius: 4px;
     display: flex;
     justify-content: center;
-
-    margin-bottom: 14px;
 }
 
 input {
-    width: 70%;
-    border-style: none;
-    color: #464646;
-}
-
-input:focus-visible {
+    width: 80%;
     outline: none;
 }
 
-button {
-    width: 400px;
-    height: 50px;
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
 
+button {
+    height: 40px;
+    border: none;
     border-radius: 4px;
-    border-style: none;
-    
-    background-color: #008F8C;
+    background-color: darkcyan;
     
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     color: #fff;
 
-    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 button:hover {
     cursor: pointer;
-    color: #015958;
 }
 
 button:active {
-    color: #023535;
-    box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.25);
+    color: #f5f5f5;
 }
 
-
+.resposta {
+    width: 400px;
+   text-align: center; 
+}
