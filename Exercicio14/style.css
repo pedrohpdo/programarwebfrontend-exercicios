@@ -47,10 +47,9 @@ body {
 }
 
 td {
-    width: 170px;
+    max-width: 170px;
     min-width: 72px;
     height: 72px;
-
 }
 
 button {
