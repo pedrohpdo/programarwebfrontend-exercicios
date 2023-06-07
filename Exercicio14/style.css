@@ -44,6 +44,13 @@ body {
     font-weight: 300;
     font-size: 96px;
     text-align: right;
+
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .buttons {
