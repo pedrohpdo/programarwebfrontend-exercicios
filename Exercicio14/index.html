@@ -10,38 +10,38 @@
 <body>
     <div class="container">
     
-        <span id="result">123</span>
+        <span id="result"></span>
 
     
         <table class="buttons">
             <tbody>
                 <tr>
-                    <td><button class="medium-button">C</button></td>
+                    <td><button class="medium-button" onclick="clean()">C</button></td>
                     <td><button class="medium-button">+/-</button></td>
                     <td><button class="medium-button">%</button></td>
                     <td><button class="medium-button">/</button></td>
                 </tr>
                 <tr>
-                    <td><button class="button-number">7</button></td>
-                    <td><button class="button-number">8</button></td>
-                    <td><button class="button-number">9</button></td>
-                    <td><button class="high-button">x</button></td>
+                    <td><button class="button-number" onclick="insert('7')">7</button></td>
+                    <td><button class="button-number" onclick="insert('8')">8</button></td>
+                    <td><button class="button-number" onclick="insert('9')">9</button></td>
+                    <td><button class="high-button" onclick="insert('')">x</button></td>
                 </tr>
                 <tr>
-                    <td><button class="button-number">4</button></td>
-                    <td><button class="button-number">5</button></td>
-                    <td><button class="button-number">6</button></td>
-                    <td><button class="high-button">-</button></td>
+                    <td><button class="button-number" onclick="insert('4')">4</button></td>
+                    <td><button class="button-number" onclick="insert('5')">5</button></td>
+                    <td><button class="button-number" onclick="insert('6')">6</button></td>
+                    <td><button class="high-button" onclick="insert('-')">-</button></td>
                 </tr>
                 <tr>
-                    <td><button class="button-number">1</button></td>
-                    <td><button class="button-number">2</button></td>
-                    <td><button class="button-number">3</button></td>
+                    <td><button class="button-number" onclick="insert('1')">1</button></td>
+                    <td><button class="button-number" onclick="insert('2')">2</button></td>
+                    <td><button class="button-number" onclick="insert('3')">3</button></td>
                     <td><button class="high-button">+</button></td>
                 </tr>
                 <tr>
-                    <td><button class="button-number">.</button></td>
-                    <td><button class="button-number">0</button></td>
+                    <td><button class="button-number" onclick="insert('.')">.</button></td>
+                    <td><button class="button-number" onclick="insert('0')">0</button></td>
                     <td><button class="button-number"><</button></td>
                     <td><button class="high-button">=</button></td>
                 </tr>
@@ -49,5 +49,6 @@
         </table>    
     
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
