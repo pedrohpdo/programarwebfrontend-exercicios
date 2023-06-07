@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Work Sans";
+    color: white;
+    border-style: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background: rgb(117,115,119);
+    background: linear-gradient(70deg, rgba(117,115,119,1) 0%, rgba(70,70,70,1) 50%, rgba(33,31,31,1) 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 768px;
+    min-width: 375px;
+    height: 812px;
+
+    background-color: #17171C;
+    padding: 147px 20px 66px 20px;
+
+}
+#result {
+    display: block;
+    font-weight: 300;
+    font-size: 96px;
+    text-align: right;
+}
+
+.buttons {
+    width: 100%;
+    height: 424px;
+
+    border-spacing: 10px;
+}
+
+td {
+    width: 170px;
+    min-width: 72px;
+    height: 72px;
+
+}
+
+button {
+    width: 100%;
+    height: 72px;
+    
+    border-radius: 4px; 
+    
+    font-weight: 400;
+    font-size: 30px;
+
+    cursor: pointer;
+}
+
+.button-number {
+    background-color: #2E2F38;
+}
+
+.medium-button {
+    background-color: #4E505F;
+}
+
+.high-button {
+    background-color: #4B5EFC;
+}

@@ -4,42 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
 <body>
     <div class="container">
     
-        <header class="dados">
-            <span id="result"></span>
-        </header>
+        <span id="result">123</span>
 
     
-    <table class="buttons">
-        <tr>
-            <th><button>9</button></th>
-            <th><button>8</button></th>
-            <th><button>7</button></th>
-            <th><button></button></th>
-        </tr>
-        <tr>
-            <th><button>6</button></th>
-            <th><button>5</button></th>
-            <th><button>4</button></th>
-            <th><button></button></th>
-        </tr>
-        <tr>
-            <th><button>3</button></th>
-            <th><button>2</button></th>
-            <th><button>1</button></th>
-            <th><button></button></th>
-        </tr>
-        <tr>
-            <th><button></button></th>
-            <th><button>0</button></th>
-            <th><button></button></th>
-            <th><button></button></th>
-        </tr>
-    </table>    
+        <table class="buttons">
+            <tbody>
+                <tr>
+                    <td><button class="medium-button">C</button></td>
+                    <td><button class="medium-button">+/-</button></td>
+                    <td><button class="medium-button">%</button></td>
+                    <td><button class="medium-button">/</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button-number">7</button></td>
+                    <td><button class="button-number">8</button></td>
+                    <td><button class="button-number">9</button></td>
+                    <td><button class="high-button">x</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button-number">4</button></td>
+                    <td><button class="button-number">5</button></td>
+                    <td><button class="button-number">6</button></td>
+                    <td><button class="high-button">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button-number">1</button></td>
+                    <td><button class="button-number">2</button></td>
+                    <td><button class="button-number">3</button></td>
+                    <td><button class="high-button">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button-number">.</button></td>
+                    <td><button class="button-number">0</button></td>
+                    <td><button class="button-number"><</button></td>
+                    <td><button class="high-button">=</button></td>
+                </tr>
+            </tbody>
+        </table>    
     
     </div>
 </body>
