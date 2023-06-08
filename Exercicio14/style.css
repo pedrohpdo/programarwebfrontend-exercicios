@@ -34,7 +34,9 @@ body {
     --button-number-hover-color: #24242b;
 
     --toggle-background-color: #ffffff;
-    --toggle-background-img: url(assets/sun.svg)
+    --toggle-background-img: url(assets/sun.svg);
+
+    --result-bgcolor: #121216;
 }
 
 .light {
@@ -48,9 +50,11 @@ body {
     
     --button-number-color: #FFFFFF;
     --button-number-hover-color: #f0f0f0;
-
+    
     --toggle-background-color: #2E2F38;
-    --toggle-background-img: url(assets/moon.svg)
+    --toggle-background-img: url(assets/moon.svg);
+
+    --result-bgcolor: #e3e3e3;
 }
 
 .container {
@@ -76,18 +80,21 @@ body {
 }
 
 .toggle {
-    width: 50px;
+    width: 40px;
     height: 40px;
 
     background-image: var(--toggle-background-img);
     background-repeat: no-repeat;
     background-position: center;
 
-
+    border-radius: 40px;
     background-color: var(--toggle-background-color);
 }
 
 #result {
+    height: 112.19px;
+    width: 100%;
+
     display: block;
     font-weight: 300;
     font-size: 96px;
@@ -95,6 +102,10 @@ body {
 
     white-space: nowrap;
     overflow-y: hidden;
+
+    border-radius: 4px;
+    padding: 0 8px;
+    background-color: var(--result-bgcolor);
 }
 
 ::-webkit-scrollbar {
