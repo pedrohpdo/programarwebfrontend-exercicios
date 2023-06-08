@@ -13,3 +13,12 @@ function erase() {
 
     document.getElementById("result").innerHTML = actual.substring(0, actual.length -1);
 }
+
+function calculate() {
+    let actual = document.getElementById("result").innerHTML;
+
+    if(actual) {
+        document.getElementById("result").innerHTML = eval(actual);
+    }
+    
+}

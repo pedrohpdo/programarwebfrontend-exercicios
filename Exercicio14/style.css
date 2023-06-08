@@ -34,7 +34,8 @@ body {
 
     background-color: #17171C;
     padding: 147px 20px 66px 20px;
-
+    
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
