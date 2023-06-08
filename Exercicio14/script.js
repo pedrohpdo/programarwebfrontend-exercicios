@@ -7,3 +7,9 @@ function insert(param){
 function clean() {
     document.getElementById("result").innerHTML = "";
 }
+
+function erase() {
+    let actual = document.getElementById("result").innerHTML;
+
+    document.getElementById("result").innerHTML = actual.substring(0, actual.length -1);
+}

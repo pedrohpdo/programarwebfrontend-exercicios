@@ -78,15 +78,26 @@ button {
     cursor: pointer;
 }
 
-
 .button-number {
     background-color: #2E2F38;
+}
+
+.button-number:hover {
+    background-color: #24242b;
 }
 
 .medium-button {
     background-color: #4E505F;
 }
 
+.medium-button:hover {
+    background-color: #3c3e49;
+}
+
 .high-button {
     background-color: #4B5EFC;
+}
+
+.high-button:hover {
+    background-color: #4251de;
 }
